@@ -24,7 +24,7 @@ export function Navbar() {
             </svg>
           </div>
           <span style={{ fontFamily: "var(--font-family)", fontWeight: 700, fontSize: "1.25rem", color: "var(--primary)", letterSpacing: "-0.01em" }}>
-            Iwua
+            Farm Fresh
           </span>
         </a>
 

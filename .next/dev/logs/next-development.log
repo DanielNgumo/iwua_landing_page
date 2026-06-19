@@ -1,2 +1,7 @@
-{"timestamp":"00:00:04.417","source":"Server","level":"LOG","message":""}
-{"timestamp":"00:00:07.022","source":"Browser","level":"INFO","message":"%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold"}
+{"timestamp":"00:00:01.666","source":"Server","level":"WARN","message":"⚠ Turbopack's filesystem cache has been deleted because we previously detected an internal error in Turbopack. Builds or page loads may be slower as a result."}
+{"timestamp":"00:00:02.177","source":"Server","level":"LOG","message":""}
+{"timestamp":"00:00:05.268","source":"Server","level":"LOG","message":"○ Compiling / ..."}
+{"timestamp":"00:00:06.400","source":"Browser","level":"INFO","message":"%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold"}
+{"timestamp":"00:00:06.411","source":"Browser","level":"INFO","message":"%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold"}
+{"timestamp":"00:00:15.017","source":"Browser","level":"INFO","message":"%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold"}
+{"timestamp":"00:00:31.491","source":"Browser","level":"INFO","message":"%cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold"}

@@ -17,7 +17,7 @@ export function Navbar() {
   const links = [
     { label: "How It Works", href: "#how-it-works" },
     { label: "For Farmers", href: "#for-farmers" },
-    { label: "For Buyers", href: "#for-farmers" },
+    { label: "For Buyers", href: "#for-buyers" },
   ];
 
   // Text/icon colors flip depending on whether we're floating over the photo or on a solid white bar
@@ -41,13 +41,14 @@ export function Navbar() {
         {/* Logo */}
         <a href="#" className="flex items-center gap-2">
           <div
-            className="w-7 h-7 rounded-lg flex items-center justify-center transition-colors duration-300"
-            style={{ backgroundColor: scrolled ? "var(--primary)" : "rgba(255,255,255,0.18)", border: scrolled ? "none" : "1px solid rgba(255,255,255,0.3)" }}
+            className="w-9 h-9 rounded-lg overflow-hidden flex items-center justify-center flex-shrink-0 transition-all duration-300"
+            style={{ border: scrolled ? "1px solid var(--border)" : "1px solid rgba(255,255,255,0.3)" }}
           >
-            <svg width="14" height="14" viewBox="0 0 14 14" fill="none">
-              <path d="M7 1C4 1 1 4 1 7s2 5 5 5 6-2.5 6-5.5C12 3.5 10 1 7 1z" fill="white" opacity="0.9"/>
-              <path d="M7 4C5.5 4 4 5.5 4 7s1 2.5 3 3" stroke="white" strokeWidth="1" strokeLinecap="round"/>
-            </svg>
+            <img
+              src="/logo.jpeg"
+              alt="Farm Fresh logo"
+              className="w-full h-full object-cover"
+            />
           </div>
           <span
             className="transition-colors duration-300"

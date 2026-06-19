@@ -66,10 +66,10 @@ export function Footer() {
         {/* Bottom row */}
         <div className="flex flex-col md:flex-row items-center justify-between gap-4 py-6">
           <p style={{ fontFamily: "var(--font-family)", fontSize: "0.8rem", color: "rgba(255,255,255,0.4)" }}>
-            © {currentYear} Iwua Technologies Ltd. All rights reserved. Built for Murang'a County, serving Kenya.
+            © {currentYear} Technasi Technologies Ltd. All rights reserved. Built for Murang'a County, serving Kenya.
           </p>
           <div className="flex items-center gap-4">
-            {["React 18", "Tailwind CSS v4", "M-Pesa API", "Android"].map((tech) => (
+            {["0742580239"].map((tech) => (
               <span
                 key={tech}
                 className="px-2 py-1 rounded"

@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "../styles/index.css";
+import { AosProvider } from "./components/AosProvider";
 
 export const metadata: Metadata = {
   title: "IWUA Landing Page",
@@ -13,7 +14,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        <AosProvider>{children}</AosProvider>
+      </body>
     </html>
   );
-}
+}

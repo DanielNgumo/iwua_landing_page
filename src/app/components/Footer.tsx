@@ -1,8 +1,14 @@
+'use client';
+
 export function Footer() {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer style={{ backgroundColor: "#1a2e1a", color: "rgba(255,255,255,0.7)" }}>
+    <footer
+      data-aos="fade-up"
+      data-aos-delay="600"
+      style={{ backgroundColor: "#1a2e1a", color: "rgba(255,255,255,0.7)" }}
+    >
       <div className="max-w-7xl mx-auto px-6">
         {/* Top row */}
         <div className="grid grid-cols-1 md:grid-cols-4 gap-10 py-14 border-b" style={{ borderColor: "rgba(255,255,255,0.08)" }}>

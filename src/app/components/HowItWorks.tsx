@@ -1,3 +1,5 @@
+'use client';
+
 import { Smartphone, CheckCircle, ShoppingCart } from "lucide-react";
 
 const steps = [
@@ -68,7 +70,11 @@ export function HowItWorks() {
             {steps.map((step, idx) => {
               const Icon = step.icon;
               return (
-                <div key={step.title} className="relative flex flex-col items-center text-center gap-5">
+                <div
+                  key={step.title}
+                  data-aos={idx % 2 === 0 ? "fade-right" : "fade-left"}
+                  className="relative flex flex-col items-center text-center gap-5"
+                >
                   {/* Step circle */}
                   <div className="relative flex-shrink-0">
                     <div

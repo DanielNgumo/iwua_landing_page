@@ -1,3 +1,5 @@
+'use client';
+
 import { ArrowRight, PlayCircle } from "lucide-react";
 
 export function HeroSection() {
@@ -28,7 +30,11 @@ export function HeroSection() {
             </span>
           </div>
 
-          <h1 style={{ fontFamily: "var(--font-family)", fontWeight: 800, fontSize: "clamp(2.25rem, 5vw, 3.75rem)", color: "var(--foreground)", lineHeight: 1.12, letterSpacing: "-0.02em" }}>
+          <h1
+            data-aos="fade-up"
+            data-aos-duration="1200"
+            style={{ fontFamily: "var(--font-family)", fontWeight: 800, fontSize: "clamp(2.25rem, 5vw, 3.75rem)", color: "var(--foreground)", lineHeight: 1.12, letterSpacing: "-0.02em" }}
+          >
             Bridging the Gap Between{" "}
             <span style={{ color: "var(--primary)" }}>Murang'a Farmers</span>{" "}
             and Nationwide Buyers.
@@ -38,7 +44,11 @@ export function HeroSection() {
             Iwua is Kenya's first direct agritech marketplace — no middlemen, no markup. Farmers list, superadmin verifies, buyers purchase with M-Pesa or cash. Fresh produce, fair prices, everywhere.
           </p>
 
-          <div className="flex flex-col sm:flex-row gap-3">
+          <div
+            data-aos="fade-up"
+            data-aos-duration="1200"
+            className="flex flex-col sm:flex-row gap-3"
+          >
             <a
               href="#download"
               className="flex items-center justify-center gap-2.5 px-7 py-4 transition-all duration-200 hover:opacity-90 hover:shadow-lg"

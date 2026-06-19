@@ -1,3 +1,5 @@
+'use client';
+
 export function ImpactSection() {
   return (
     <section className="relative overflow-hidden" style={{ backgroundColor: "#f0ede8" }}>
@@ -44,8 +46,13 @@ export function ImpactSection() {
                   { label: "Murang'a Sub-Counties", value: "10" },
                   { label: "Avg. Farmer Revenue Increase", value: "+34%" },
                   { label: "Days to First Sale", value: "< 3" },
-                ].map((stat) => (
-                  <div key={stat.label} className="flex flex-col gap-0.5">
+                ].map((stat, idx) => (
+                  <div
+                    key={stat.label}
+                    data-aos="zoom-in-up"
+                    data-aos-delay={idx * 100}
+                    className="flex flex-col gap-0.5"
+                  >
                     <span style={{ fontFamily: "var(--font-family)", fontWeight: 800, fontSize: "1.75rem", color: "var(--primary)", letterSpacing: "-0.02em" }}>
                       {stat.value}
                     </span>

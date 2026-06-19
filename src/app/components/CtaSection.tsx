@@ -1,12 +1,22 @@
+'use client';
+
 export function CtaSection() {
   return (
-    <section id="download" className="py-28 relative overflow-hidden" style={{ backgroundColor: "var(--background)" }}>
+    <section
+      id="download"
+      data-aos="fade-up"
+      className="py-28 relative overflow-hidden"
+      style={{ backgroundColor: "var(--background)" }}
+    >
       {/* Background decorations */}
       <div className="absolute inset-0 pointer-events-none" aria-hidden>
         <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[600px] h-[600px] rounded-full opacity-5" style={{ backgroundColor: "var(--primary)", filter: "blur(100px)" }} />
       </div>
 
-      <div className="relative max-w-4xl mx-auto px-6 text-center flex flex-col items-center gap-8">
+      <div
+        data-aos="zoom-in"
+        className="relative max-w-4xl mx-auto px-6 text-center flex flex-col items-center gap-8"
+      >
         {/* Badge */}
         <span
           className="px-3 py-1 rounded-full"

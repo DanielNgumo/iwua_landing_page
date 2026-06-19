@@ -1,3 +1,5 @@
+'use client';
+
 import { TrendingUp, Leaf, Shield } from "lucide-react";
 
 const cards = [
@@ -61,11 +63,13 @@ export function ValuePropositions() {
 
         {/* Cards grid */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-7">
-          {cards.map((card) => {
+          {cards.map((card, idx) => {
             const Icon = card.icon;
             return (
               <div
                 key={card.title}
+                data-aos="fade-up"
+                data-aos-delay={idx * 100}
                 className="relative flex flex-col gap-5 p-7 rounded-2xl transition-shadow duration-200 hover:shadow-md"
                 style={{ backgroundColor: "var(--card)", border: "1px solid var(--border)" }}
               >

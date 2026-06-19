@@ -8,7 +8,7 @@ const cards = [
     tag: "For Farmers",
     title: "Direct Market Access",
     description:
-      "Skip the brokers. List your produce directly on Iwua's marketplace and connect with buyers from Nairobi, Mombasa, and across all 47 counties — at fair prices you set.",
+      "Skip the brokers. List your produce directly on Farm Fresh's marketplace and connect with buyers from Nairobi, Mombasa, and across all 47 counties — at fair prices you set.",
     highlight: "Zero middleman fees",
     highlightColor: "#e8f5ec",
     highlightText: "#1e5c2e",
@@ -54,7 +54,7 @@ export function ValuePropositions() {
             className="inline-block px-3 py-1 rounded-full mb-4"
             style={{ backgroundColor: "#e8f5ec", fontFamily: "var(--font-family)", fontSize: "0.75rem", fontWeight: 600, color: "var(--primary)", letterSpacing: "0.05em", textTransform: "uppercase" }}
           >
-            Why Iwua
+            Why Farm Fresh
           </span>
           <h2 style={{ fontFamily: "var(--font-family)", fontWeight: 800, fontSize: "clamp(1.75rem, 3vw, 2.75rem)", color: "var(--foreground)", lineHeight: 1.2, letterSpacing: "-0.015em" }}>
             Built for Every Stakeholder in Kenya's Agricultural Chain

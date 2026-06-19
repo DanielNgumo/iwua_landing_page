@@ -21,7 +21,7 @@ const steps = [
     actor: "Superadmin",
     title: "Quality Approval",
     description:
-      "Iwua's superadmin reviews each submission for accuracy and quality standards. Only verified, authentic listings go live on the marketplace — protecting every buyer.",
+      "Farm Fresh's superadmin reviews each submission for accuracy and quality standards. Only verified, authentic listings go live on the marketplace — protecting every buyer.",
     tag: "Quality Gate",
     tagBg: "#fef3eb",
     tagColor: "#c95e2a",
@@ -57,7 +57,7 @@ export function HowItWorks() {
             Three Steps from Farm to Doorstep
           </h2>
           <p style={{ fontFamily: "var(--font-family)", fontWeight: 400, fontSize: "1rem", color: "var(--muted-foreground)", lineHeight: 1.7, marginTop: "0.75rem" }}>
-            Iwua's streamlined pipeline removes friction at every stage of the agricultural supply chain.
+            Farm Fresh's streamlined pipeline removes friction at every stage of the agricultural supply chain.
           </p>
         </div>
 

@@ -44,7 +44,7 @@ function Navbar() {
         },
         {
             label: "For Buyers",
-            href: "#for-buyers"
+            href: "#for-farmers"
         }
     ];
     // Text/icon colors flip depending on whether we're floating over the photo or on a solid white bar
@@ -682,7 +682,7 @@ const cards = [
         icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$lucide$2d$react$40$0$2e$487$2e$0_react$40$18$2e$3$2e$1$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$trending$2d$up$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__TrendingUp$3e$__["TrendingUp"],
         tag: "For Farmers",
         title: "Direct Market Access",
-        description: "Skip the brokers. List your produce directly on Iwua's marketplace and connect with buyers from Nairobi, Mombasa, and across all 47 counties — at fair prices you set.",
+        description: "Skip the brokers. List your produce directly on Farm Fresh's marketplace and connect with buyers from Nairobi, Mombasa, and across all 47 counties — at fair prices you set.",
         highlight: "Zero middleman fees",
         highlightColor: "#e8f5ec",
         highlightText: "#1e5c2e",
@@ -739,7 +739,7 @@ function ValuePropositions() {
                                 letterSpacing: "0.05em",
                                 textTransform: "uppercase"
                             },
-                            children: "Why Iwua"
+                            children: "Why Farm Fresh"
                         }, void 0, false, {
                             fileName: "[project]/src/app/components/ValuePropositions.tsx",
                             lineNumber: 53,
@@ -969,7 +969,7 @@ const steps = [
         icon: __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$lucide$2d$react$40$0$2e$487$2e$0_react$40$18$2e$3$2e$1$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$circle$2d$check$2d$big$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__CheckCircle$3e$__["CheckCircle"],
         actor: "Superadmin",
         title: "Quality Approval",
-        description: "Iwua's superadmin reviews each submission for accuracy and quality standards. Only verified, authentic listings go live on the marketplace — protecting every buyer.",
+        description: "Farm Fresh's superadmin reviews each submission for accuracy and quality standards. Only verified, authentic listings go live on the marketplace — protecting every buyer.",
         tag: "Quality Gate",
         tagBg: "#fef3eb",
         tagColor: "#c95e2a",
@@ -1041,7 +1041,7 @@ function HowItWorks() {
                                 lineHeight: 1.7,
                                 marginTop: "0.75rem"
                             },
-                            children: "Iwua's streamlined pipeline removes friction at every stage of the agricultural supply chain."
+                            children: "Farm Fresh's streamlined pipeline removes friction at every stage of the agricultural supply chain."
                         }, void 0, false, {
                             fileName: "[project]/src/app/components/HowItWorks.tsx",
                             lineNumber: 59,
@@ -2044,10 +2044,14 @@ __turbopack_context__.s([
     ()=>Footer
 ]);
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/.pnpm/next@16.2.9_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/next/dist/compiled/react/jsx-dev-runtime.js [app-client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$lucide$2d$react$40$0$2e$487$2e$0_react$40$18$2e$3$2e$1$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$phone$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Phone$3e$__ = __turbopack_context__.i("[project]/node_modules/.pnpm/lucide-react@0.487.0_react@18.3.1/node_modules/lucide-react/dist/esm/icons/phone.js [app-client] (ecmascript) <export default as Phone>");
 'use client';
+;
 ;
 function Footer() {
     const currentYear = new Date().getFullYear();
+    const phoneNumber = "0742580239";
+    const phoneHref = "tel:+254742580239";
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("footer", {
         "data-aos": "fade-up",
         "data-aos-delay": "600",
@@ -2056,224 +2060,72 @@ function Footer() {
             color: "rgba(255,255,255,0.7)"
         },
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "max-w-7xl mx-auto px-6",
+            className: "max-w-3xl mx-auto px-6",
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "grid grid-cols-1 md:grid-cols-4 gap-10 py-14 border-b",
+                    className: "flex flex-col items-center text-center gap-5 py-16 border-b",
                     style: {
                         borderColor: "rgba(255,255,255,0.08)"
                     },
                     children: [
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "col-span-1 md:col-span-2 flex flex-col gap-4",
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                            style: {
+                                fontFamily: "var(--font-family)",
+                                fontSize: "0.875rem",
+                                lineHeight: 1.7,
+                                maxWidth: "1200px",
+                                width: "100%"
+                            },
+                            children: "Kenya's premier agritech marketplace — connecting Murang'a's finest farmers directly to buyers nationwide. No middlemen. Just fresh produce and fair prices."
+                        }, void 0, false, {
+                            fileName: "[project]/src/app/components/Footer.tsx",
+                            lineNumber: 21,
+                            columnNumber: 11
+                        }, this),
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                            href: phoneHref,
+                            className: "flex items-center gap-2 mt-2 px-4 py-2 rounded-full transition-colors duration-200 hover:bg-white/10",
+                            style: {
+                                border: "1px solid rgba(255,255,255,0.15)"
+                            },
                             children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "flex items-center gap-2",
-                                    children: [
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            className: "w-7 h-7 rounded-lg flex items-center justify-center",
-                                            style: {
-                                                backgroundColor: "var(--primary)"
-                                            },
-                                            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
-                                                width: "14",
-                                                height: "14",
-                                                viewBox: "0 0 14 14",
-                                                fill: "none",
-                                                "aria-hidden": true,
-                                                children: [
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
-                                                        d: "M7 1C4 1 1 4 1 7s2 5 5 5 6-2.5 6-5.5C12 3.5 10 1 7 1z",
-                                                        fill: "white",
-                                                        opacity: "0.9"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/src/app/components/Footer.tsx",
-                                                        lineNumber: 20,
-                                                        columnNumber: 19
-                                                    }, this),
-                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
-                                                        d: "M7 4C5.5 4 4 5.5 4 7s1 2.5 3 3",
-                                                        stroke: "white",
-                                                        strokeWidth: "1",
-                                                        strokeLinecap: "round"
-                                                    }, void 0, false, {
-                                                        fileName: "[project]/src/app/components/Footer.tsx",
-                                                        lineNumber: 21,
-                                                        columnNumber: 19
-                                                    }, this)
-                                                ]
-                                            }, void 0, true, {
-                                                fileName: "[project]/src/app/components/Footer.tsx",
-                                                lineNumber: 19,
-                                                columnNumber: 17
-                                            }, this)
-                                        }, void 0, false, {
-                                            fileName: "[project]/src/app/components/Footer.tsx",
-                                            lineNumber: 18,
-                                            columnNumber: 15
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                            style: {
-                                                fontFamily: "var(--font-family)",
-                                                fontWeight: 700,
-                                                fontSize: "1.2rem",
-                                                color: "white"
-                                            },
-                                            children: "Iwua"
-                                        }, void 0, false, {
-                                            fileName: "[project]/src/app/components/Footer.tsx",
-                                            lineNumber: 24,
-                                            columnNumber: 15
-                                        }, this)
-                                    ]
-                                }, void 0, true, {
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$lucide$2d$react$40$0$2e$487$2e$0_react$40$18$2e$3$2e$1$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$phone$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Phone$3e$__["Phone"], {
+                                    size: 14,
+                                    style: {
+                                        color: "#86efac"
+                                    }
+                                }, void 0, false, {
                                     fileName: "[project]/src/app/components/Footer.tsx",
-                                    lineNumber: 17,
+                                    lineNumber: 32,
                                     columnNumber: 13
                                 }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                     style: {
                                         fontFamily: "var(--font-family)",
                                         fontSize: "0.875rem",
-                                        lineHeight: 1.7,
-                                        maxWidth: "34ch"
+                                        color: "white",
+                                        fontWeight: 500
                                     },
-                                    children: "Kenya's premier agritech marketplace — connecting Murang'a's finest farmers directly to buyers nationwide. No middlemen. Just fresh produce and fair prices."
+                                    children: phoneNumber
                                 }, void 0, false, {
                                     fileName: "[project]/src/app/components/Footer.tsx",
-                                    lineNumber: 26,
-                                    columnNumber: 13
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "flex items-center gap-2 mt-1",
-                                    children: [
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                            className: "w-2 h-2 rounded-full",
-                                            style: {
-                                                backgroundColor: "#86efac"
-                                            }
-                                        }, void 0, false, {
-                                            fileName: "[project]/src/app/components/Footer.tsx",
-                                            lineNumber: 30,
-                                            columnNumber: 15
-                                        }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                            style: {
-                                                fontFamily: "var(--font-family)",
-                                                fontSize: "0.8rem",
-                                                color: "#86efac",
-                                                fontWeight: 500
-                                            },
-                                            children: "Live on the Play Store"
-                                        }, void 0, false, {
-                                            fileName: "[project]/src/app/components/Footer.tsx",
-                                            lineNumber: 31,
-                                            columnNumber: 15
-                                        }, this)
-                                    ]
-                                }, void 0, true, {
-                                    fileName: "[project]/src/app/components/Footer.tsx",
-                                    lineNumber: 29,
+                                    lineNumber: 33,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/app/components/Footer.tsx",
-                            lineNumber: 16,
-                            columnNumber: 11
-                        }, this),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "flex flex-col gap-3",
-                            children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
-                                    style: {
-                                        fontFamily: "var(--font-family)",
-                                        fontWeight: 600,
-                                        fontSize: "0.875rem",
-                                        color: "white"
-                                    },
-                                    children: "Platform"
-                                }, void 0, false, {
-                                    fileName: "[project]/src/app/components/Footer.tsx",
-                                    lineNumber: 37,
-                                    columnNumber: 13
-                                }, this),
-                                [
-                                    "How It Works",
-                                    "For Farmers",
-                                    "For Buyers",
-                                    "Quality Assurance",
-                                    "M-Pesa Payments"
-                                ].map((link)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                        href: "#",
-                                        style: {
-                                            fontFamily: "var(--font-family)",
-                                            fontSize: "0.85rem",
-                                            color: "rgba(255,255,255,0.55)"
-                                        },
-                                        className: "hover:text-white transition-colors",
-                                        children: link
-                                    }, link, false, {
-                                        fileName: "[project]/src/app/components/Footer.tsx",
-                                        lineNumber: 39,
-                                        columnNumber: 15
-                                    }, this))
-                            ]
-                        }, void 0, true, {
-                            fileName: "[project]/src/app/components/Footer.tsx",
-                            lineNumber: 36,
-                            columnNumber: 11
-                        }, this),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "flex flex-col gap-3",
-                            children: [
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h4", {
-                                    style: {
-                                        fontFamily: "var(--font-family)",
-                                        fontWeight: 600,
-                                        fontSize: "0.875rem",
-                                        color: "white"
-                                    },
-                                    children: "Company"
-                                }, void 0, false, {
-                                    fileName: "[project]/src/app/components/Footer.tsx",
-                                    lineNumber: 52,
-                                    columnNumber: 13
-                                }, this),
-                                [
-                                    "About Us",
-                                    "Murang'a Partnership",
-                                    "Privacy Policy",
-                                    "Terms of Service",
-                                    "Contact"
-                                ].map((link)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
-                                        href: "#",
-                                        style: {
-                                            fontFamily: "var(--font-family)",
-                                            fontSize: "0.85rem",
-                                            color: "rgba(255,255,255,0.55)"
-                                        },
-                                        className: "hover:text-white transition-colors",
-                                        children: link
-                                    }, link, false, {
-                                        fileName: "[project]/src/app/components/Footer.tsx",
-                                        lineNumber: 54,
-                                        columnNumber: 15
-                                    }, this))
-                            ]
-                        }, void 0, true, {
-                            fileName: "[project]/src/app/components/Footer.tsx",
-                            lineNumber: 51,
+                            lineNumber: 27,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/app/components/Footer.tsx",
-                    lineNumber: 14,
+                    lineNumber: 18,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "flex flex-col md:flex-row items-center justify-between gap-4 py-6",
+                    className: "flex flex-col items-center gap-2 py-6 text-center",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                             style: {
@@ -2284,53 +2136,40 @@ function Footer() {
                             children: [
                                 "© ",
                                 currentYear,
-                                " Technasi Technologies Ltd. All rights reserved. Built for Murang'a County, serving Kenya."
+                                " Farm Fresh Technologies Ltd. All rights reserved."
                             ]
                         }, void 0, true, {
                             fileName: "[project]/src/app/components/Footer.tsx",
-                            lineNumber: 68,
+                            lineNumber: 41,
                             columnNumber: 11
                         }, this),
-                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "flex items-center gap-4",
-                            children: [
-                                "0742580239"
-                            ].map((tech)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                    className: "px-2 py-1 rounded",
-                                    style: {
-                                        fontFamily: "var(--font-family)",
-                                        fontSize: "0.65rem",
-                                        fontWeight: 500,
-                                        color: "rgba(255,255,255,0.35)",
-                                        backgroundColor: "rgba(255,255,255,0.05)",
-                                        border: "1px solid rgba(255,255,255,0.08)"
-                                    },
-                                    children: tech
-                                }, tech, false, {
-                                    fileName: "[project]/src/app/components/Footer.tsx",
-                                    lineNumber: 73,
-                                    columnNumber: 15
-                                }, this))
+                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f2e$pnpm$2f$next$40$16$2e$2$2e$9_react$2d$dom$40$18$2e$3$2e$1_react$40$18$2e$3$2e$1_$5f$react$40$18$2e$3$2e$1$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                            style: {
+                                fontFamily: "var(--font-family)",
+                                fontSize: "0.75rem",
+                                color: "rgba(255,255,255,0.35)"
+                            },
+                            children: "Built for Murang'a County, serving Kenya."
                         }, void 0, false, {
                             fileName: "[project]/src/app/components/Footer.tsx",
-                            lineNumber: 71,
+                            lineNumber: 44,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/src/app/components/Footer.tsx",
-                    lineNumber: 67,
+                    lineNumber: 40,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/src/app/components/Footer.tsx",
-            lineNumber: 12,
+            lineNumber: 16,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/src/app/components/Footer.tsx",
-        lineNumber: 7,
+        lineNumber: 11,
         columnNumber: 5
     }, this);
 }

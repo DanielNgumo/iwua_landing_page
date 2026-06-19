@@ -1,10 +1,11 @@
 import type { Metadata } from "next";
 import "../styles/index.css";
 import { AosProvider } from "./components/AosProvider";
+import { SmoothScrollProvider } from "./components/SmoothScrollProvider";
 
 export const metadata: Metadata = {
-  title: "IWUA Landing Page",
-  description: "IWUA Landing Page",
+  title: "Farm Fresh — Murang'a to the Nation",
+  description: "Farm Fresh is Kenya's direct agritech marketplace connecting Murang'a farmers to buyers nationwide.",
 };
 
 export default function RootLayout({
@@ -15,8 +16,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <AosProvider>{children}</AosProvider>
+        <SmoothScrollProvider>
+          <AosProvider>{children}</AosProvider>
+        </SmoothScrollProvider>
       </body>
     </html>
   );
-}
+}

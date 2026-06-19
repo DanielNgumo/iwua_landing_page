@@ -49,15 +49,6 @@
       --tw-drop-shadow-color: initial;
       --tw-drop-shadow-alpha: 100%;
       --tw-drop-shadow-size: initial;
-      --tw-backdrop-blur: initial;
-      --tw-backdrop-brightness: initial;
-      --tw-backdrop-contrast: initial;
-      --tw-backdrop-grayscale: initial;
-      --tw-backdrop-hue-rotate: initial;
-      --tw-backdrop-invert: initial;
-      --tw-backdrop-opacity: initial;
-      --tw-backdrop-saturate: initial;
-      --tw-backdrop-sepia: initial;
       --tw-duration: initial;
       --tw-ease: initial;
       --tw-content: "";
@@ -121,7 +112,6 @@
     --ease-out: cubic-bezier(0, 0, .2, 1);
     --ease-in-out: cubic-bezier(.4, 0, .2, 1);
     --animate-pulse: pulse 2s cubic-bezier(.4, 0, .6, 1) infinite;
-    --blur-sm: 8px;
     --aspect-video: 16 / 9;
     --default-transition-duration: .15s;
     --default-transition-timing-function: cubic-bezier(.4, 0, .2, 1);
@@ -1591,10 +1581,6 @@
     border-color: var(--color-border);
   }
 
-  .border-border {
-    border-color: var(--border);
-  }
-
   .border-border\/50 {
     border-color: var(--border);
   }
@@ -1723,20 +1709,6 @@
     background-color: #0000;
   }
 
-  .bg-white {
-    background-color: var(--color-white);
-  }
-
-  .bg-white\/95 {
-    background-color: #fffffff2;
-  }
-
-  @supports (color: color-mix(in lab, red, red)) {
-    .bg-white\/95 {
-      background-color: color-mix(in oklab, var(--color-white) 95%, transparent);
-    }
-  }
-
   .fill-current {
     fill: currentColor;
   }
@@ -1775,10 +1747,6 @@
 
   .p-7 {
     padding: calc(var(--spacing) * 7);
-  }
-
-  .p-9 {
-    padding: calc(var(--spacing) * 9);
   }
 
   .p-\[3px\] {
@@ -2196,12 +2164,6 @@
 
   .filter {
     filter: var(--tw-blur, ) var(--tw-brightness, ) var(--tw-contrast, ) var(--tw-grayscale, ) var(--tw-hue-rotate, ) var(--tw-invert, ) var(--tw-saturate, ) var(--tw-sepia, ) var(--tw-drop-shadow, );
-  }
-
-  .backdrop-blur-sm {
-    --tw-backdrop-blur: blur(var(--blur-sm));
-    -webkit-backdrop-filter: var(--tw-backdrop-blur, ) var(--tw-backdrop-brightness, ) var(--tw-backdrop-contrast, ) var(--tw-backdrop-grayscale, ) var(--tw-backdrop-hue-rotate, ) var(--tw-backdrop-invert, ) var(--tw-backdrop-opacity, ) var(--tw-backdrop-saturate, ) var(--tw-backdrop-sepia, );
-    backdrop-filter: var(--tw-backdrop-blur, ) var(--tw-backdrop-brightness, ) var(--tw-backdrop-contrast, ) var(--tw-backdrop-grayscale, ) var(--tw-backdrop-hue-rotate, ) var(--tw-backdrop-invert, ) var(--tw-backdrop-opacity, ) var(--tw-backdrop-saturate, ) var(--tw-backdrop-sepia, );
   }
 
   .transition {
@@ -2727,6 +2689,18 @@
   @media (hover: hover) {
     .hover\:bg-white:hover {
       background-color: var(--color-white);
+    }
+  }
+
+  @media (hover: hover) {
+    .hover\:bg-white\/10:hover {
+      background-color: #ffffff1a;
+    }
+
+    @supports (color: color-mix(in lab, red, red)) {
+      .hover\:bg-white\/10:hover {
+        background-color: color-mix(in oklab, var(--color-white) 10%, transparent);
+      }
     }
   }
 
@@ -3961,12 +3935,6 @@
   }
 
   @media (min-width: 64rem) {
-    .lg\:p-12 {
-      padding: calc(var(--spacing) * 12);
-    }
-  }
-
-  @media (min-width: 64rem) {
     .lg\:px-14 {
       padding-inline: calc(var(--spacing) * 14);
     }
@@ -3975,12 +3943,6 @@
   @media (min-width: 64rem) {
     .lg\:py-28 {
       padding-block: calc(var(--spacing) * 28);
-    }
-  }
-
-  @media (min-width: 64rem) {
-    .lg\:py-36 {
-      padding-block: calc(var(--spacing) * 36);
     }
   }
 
@@ -4974,51 +4936,6 @@
 }
 
 @property --tw-drop-shadow-size {
-  syntax: "*";
-  inherits: false
-}
-
-@property --tw-backdrop-blur {
-  syntax: "*";
-  inherits: false
-}
-
-@property --tw-backdrop-brightness {
-  syntax: "*";
-  inherits: false
-}
-
-@property --tw-backdrop-contrast {
-  syntax: "*";
-  inherits: false
-}
-
-@property --tw-backdrop-grayscale {
-  syntax: "*";
-  inherits: false
-}
-
-@property --tw-backdrop-hue-rotate {
-  syntax: "*";
-  inherits: false
-}
-
-@property --tw-backdrop-invert {
-  syntax: "*";
-  inherits: false
-}
-
-@property --tw-backdrop-opacity {
-  syntax: "*";
-  inherits: false
-}
-
-@property --tw-backdrop-saturate {
-  syntax: "*";
-  inherits: false
-}
-
-@property --tw-backdrop-sepia {
   syntax: "*";
   inherits: false
 }

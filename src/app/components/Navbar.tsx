@@ -17,7 +17,7 @@ export function Navbar() {
   const links = [
     { label: "How It Works", href: "#how-it-works" },
     { label: "For Farmers", href: "#for-farmers" },
-    { label: "For Buyers", href: "#for-buyers" },
+    { label: "For Buyers", href: "#for-farmers" },
   ];
 
   // Text/icon colors flip depending on whether we're floating over the photo or on a solid white bar

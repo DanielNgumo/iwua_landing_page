@@ -1,6 +1,0 @@
-{
-  "version": 3,
-  "sources": [],
-  "sections": [
-    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///C:/Users/ngumo/Downloads/iwua_landing_page/src/app/components/AosProvider.tsx"],"sourcesContent":["'use client';\n\nimport { useEffect } from \"react\";\nimport AOS from \"aos\";\nimport \"aos/dist/aos.css\";\n\ninterface AosProviderProps {\n  children: React.ReactNode;\n}\n\nexport function AosProvider({ children }: AosProviderProps) {\n  useEffect(() => {\n    AOS.init({\n      duration: 800,\n      easing: \"ease-out-cubic\",\n      once: true,\n      offset: 80,\n    });\n  }, []);\n\n  return <>{children}</>;\n}\n"],"names":["AosProvider","children","init","duration","easing","once","offset"],"mappings":";;;;;AAEA;AACA;;;AAHA;;;;AAUO,SAASA,YAAY,EAAEC,QAAQ,EAAoB;;IACxD,IAAA,ySAAS;iCAAC;YACR,gMAAG,CAACC,IAAI,CAAC;gBACPC,UAAU;gBACVC,QAAQ;gBACRC,MAAM;gBACNC,QAAQ;YACV;QACF;gCAAG,EAAE;IAEL,qBAAO;kBAAGL;;AACZ;GAXgBD;KAAAA"}}]
-}

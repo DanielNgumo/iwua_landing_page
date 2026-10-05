@@ -30,7 +30,7 @@ export function CtaSection() {
         </h2>
 
         <p style={{ fontFamily: "var(--font-family)", fontWeight: 400, fontSize: "1.1rem", color: "var(--muted-foreground)", lineHeight: 1.7, maxWidth: "52ch" }}>
-          Join over 2,400 Murang'a farmers and nationwide buyers already trading on Iwua. Download the app and start listing or buying in under 3 minutes.
+          Join over 2,400 Murang'a farmers and nationwide buyers already trading on Kapufresh. Download the app and start listing or buying in under 3 minutes.
         </p>
 
         {/* CTA buttons */}

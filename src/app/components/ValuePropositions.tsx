@@ -34,7 +34,7 @@ const cards = [
     tag: "For Everyone",
     title: "Secure Payments",
     description:
-      "Pay confidently with M-Pesa Paybill integration or choose cash on delivery. Every transaction is logged, verified, and protected end-to-end inside the Iwua platform.",
+      "Pay confidently with M-Pesa Paybill integration or choose cash on delivery. Every transaction is logged, verified, and protected end-to-end inside the Kapufresh platform.",
     highlight: "M-Pesa & Cash supported",
     highlightColor: "#e8f5ec",
     highlightText: "#1e5c2e",

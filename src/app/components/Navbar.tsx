@@ -16,7 +16,7 @@ export function Navbar() {
 
   const links = [
     { label: "How It Works", href: "#how-it-works" },
-    { label: "For Farmers", href: "#for-farmers" },
+    { label: "Farmers", href: "#for-farmers" },
     { label: "For Buyers", href: "#for-buyers" },
   ];
 

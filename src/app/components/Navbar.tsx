@@ -54,7 +54,7 @@ export function Navbar() {
             className="transition-colors duration-300"
             style={{ fontFamily: "var(--font-family)", fontWeight: 700, fontSize: "1.25rem", color: wordmarkColor, letterSpacing: "-0.01em" }}
           >
-            Farm Fresh
+            Farm 
           </span>
         </a>
 
